@@ -118,4 +118,4 @@ def getresponse():
             return get_emojized_text(tokenizer.decode(sent))
         else:
             return '|No Response|'
-app.run()
+app.run(host='0.0.0.0')
