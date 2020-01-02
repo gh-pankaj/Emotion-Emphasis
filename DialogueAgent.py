@@ -13,7 +13,7 @@ from flask import request
 from text_emojize import get_emojized_text
 
 app = flask.Flask(__name__)
-app.config["DEBUG"] = True
+#app.config["DEBUG"] = True
 
 
 # import huggingface transformers
